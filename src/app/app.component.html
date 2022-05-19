@@ -1,0 +1,11 @@
+<div>
+  <label
+    >Hero name:
+    <input #heroName />
+  </label>
+  <div *ngFor="let obj of arrTemp">
+    <label>obj.tipInfF</label>
+  </div>
+
+  <button (click)="add(heroName.value)">add</button>
+</div>
